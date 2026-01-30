@@ -5,6 +5,10 @@ import os
 # ========== CONFIG ==========
 TOKEN = os.getenv("DISCORD_TOKEN")
 
+if not TOKEN:
+    raise RuntimeError("DISCORD_TOKEN environment variable not set")
+
+
 TARGET_CHANNEL_ID = 1466754024131919937 
 WAIT_SECONDS = 10800  # 3 hours sjsjsnsis
 REACTION_EMOJI = "❤️"
