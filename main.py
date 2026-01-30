@@ -8,7 +8,7 @@ TOKEN = os.getenv("DISCORD_TOKEN")
 
 TARGET_CHANNEL_ID = 1466902507157717092 
 WAIT_SECONDS = 60  # 3 hours sjsjsnsis
-REACTION_EMOJI = "❤️"
+REACTION_EMOJI = "<:noodlelove:1459884784586195076>"
 # ============================
 
 
