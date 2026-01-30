@@ -7,7 +7,7 @@ import os
 TOKEN = os.getenv("DISCORD_TOKEN")
 
 TARGET_CHANNEL_ID = 1466754024131919937 
-WAIT_SECONDS = 10800  # 3 hours sjsjsnsis
+WAIT_SECONDS = 60  # 3 hours sjsjsnsis
 REACTION_EMOJI = "❤️"
 # ============================
 
