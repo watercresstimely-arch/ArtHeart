@@ -3,8 +3,6 @@ import asyncio
 import os
 
 # ========== CONFIG ==========
-print("TOKEN LOADED:", bool(TOKEN))
-
 
 TOKEN = os.getenv("DISCORD_TOKEN")
 
